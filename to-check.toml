@@ -1,0 +1,12 @@
+[[addresses]]
+name = "Address 1"
+public = false
+host = "1.1.1.1"
+port = 443
+
+[[addresses]]
+name = "Address 2"
+public = true
+host = "2.2.2.2"
+proxy = "http://proxy.server.com:8080"
+ports = [443, 808]
